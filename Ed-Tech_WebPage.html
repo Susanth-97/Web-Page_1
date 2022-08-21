@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+    margin: 0px;
+    padding: 0px;
+    background: url('https://img.freepik.com/free-vector/happy-women-learning-language-online-isolated-flat-vector-illustration-cartoon-female-characters-taking-individual-lessons-through-messenger-education-digital-technology-concept_74855-10088.jpg?w=2000');
+    }
+    .left{
+        display: inline-block;
+        left: 34px;
+        top: 20px;
+        position: absolute;
+
+    }
+    .middle{
+        display: block;
+        margin: 20px auto;
+        width: 40%;
+    
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        margin: 20px;
+        top: 10px;
+        display: inline-block;
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        Font-size: 23px;
+    }
+    .navbar li a{
+        color: red;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+    }
+    .btn{
+        margin: 0px 9px; 
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .two{
+      position: absolute;
+        right: 0px;
+        margin: 5px;
+        top: 150px;
+        
+    }
+    h1{
+      text-align: left;
+      margin: 90px;
+      font-size: 50px;
+
+    }
+    form{
+      margin: 90px ;
+      width: 320px;
+      color: darkblue;
+    }
+    input{
+      padding: 10px;
+      font-size: inherit;
+    }
+    input[type="text"]{
+      display: clock;
+      margin-bottom: 25px;
+      width: 100%;
+      border: 2px solid purple;
+    }
+    input[type="Email"]{
+      display: clock;
+      margin-bottom: 25px;
+      width: 100%;
+      border: 2px solid purple;
+    }
+    input[type="Adress"]{
+      display: clock;
+      margin-bottom: 25px;
+      width: 100%;
+      border: 2px solid purple;
+    }
+    input[type="Phone number"]{
+      display: clock;
+      margin-bottom: 25px;
+      width: 100%;
+      border: 2px solid purple;
+    }
+    input[type="Password"]{
+      display: clock;
+      margin-bottom: 25px;
+      width: 100%;
+      border: 2px solid purple;
+    }
+    input[type="Confirm Password"]{
+      display: clock;
+      margin-bottom: 25px;
+      width: 100%;
+      border: 2px solid purple;
+    }
+    input[type="radio"]{
+      margin: 8px 25px 18px;
+    }
+    input[type="submit"]{
+      width: 344px;
+      height: 45px;
+      border: none;
+      color: white;
+    }
+    input[type="radio"]:first-child {
+      margin-left: 0;
+    }
+
+</style>
+<body>
+    <header class= "one" >
+    <div class="left">
+      <img src="https://i0.wp.com/edtechhub.org/wp-content/uploads/2020/09/favicon.png?fit=300%2C300&ssl=1" alt="absolute url" height="60">
+    </div>
+    <div class="middle">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Corses</a></li>
+            <li><a href="#">Alumini</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="right">
+     <button class="btn">Contact Us</button>
+     <button class="btn">Email Us</button>
+    </div>
+    <h1> Fill The Following Form </h1>
+    <form>
+      <input type="text" placeholder="Full Name">
+      <input type="Email" placeholder="susanth36912@gmail.com">
+      <input type="Phone number" placeholder="1234567890">
+      <input type="adress" placeholder="SRMIST,potheri,chennai">
+      <input type="Password" placeholder="password">
+      <input type="Confirm Password" placeholder="Confirm Password">
+    
+    <div>
+      <input type="radio" id="male" ><label for="male">Male</label>
+      <input type="radio" id="female" ><label for="female">female</label>
+   </div>
+
+   <input type="submit" name="submit">
+   <div class="two">
+    <img src="https://images.squarespace-cdn.com/content/v1/5475f6eae4b0821160f6ac3e/c3e5011c-7bcf-4e38-b1c9-6a708630a9bd/tecnologia+educativa+en+latam.jpg" alt="absolute url" height="260">
+
+   </div>
+  </form>
+</body>
+</html>
